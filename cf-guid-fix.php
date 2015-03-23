@@ -158,8 +158,8 @@ class CF_Guid_Fix {
 				WHERE p1.post_type != 'revision'
 				AND p1.guid = p2.guid
 			)
-			AND p1.post_type != 'revision'
-		"));
+			AND p1.post_type != %s
+		"), 'revision');
 
 		// make them unique
 		if (count($non_unique_guids)) {
