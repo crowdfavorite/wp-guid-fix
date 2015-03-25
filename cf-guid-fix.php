@@ -4,7 +4,7 @@
 Plugin Name: CF GUID-Fix 
 Plugin URI: http://crowdfavorite.com/wordpress/plugins/cf-guid-fix/ 
 Description: Correct duplicate GUID values created with versions of WordPress that exhibited a <a href="http://core.trac.wordpress.org/ticket/15041">non-unique GUID bug</a>.
-Version: 1.0.1
+Version: 1.0.1a
 Author: Crowd Favorite
 Author URI: http://crowdfavorite.com
 */
